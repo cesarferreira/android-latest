@@ -1,0 +1,9 @@
+{
+	"android-version": 24,
+	"compileSdkVersion": 24,
+	"buildToolsVersion": "24.0.2",
+	"minSdkVersion": 17,
+	"minSdkReason": "By targeting API 17 and later, your app will run on approximately 87.4% of the devices that are active on the Google Play Store",
+	"targetSdkVersion": 24,
+	"com.android.support": "24.2.0"
+}
