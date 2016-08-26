@@ -29,9 +29,12 @@ end
 def generate(template, destination)
   renderer = RendererClass.new
   result = renderer.render File.dirname(__FILE__) + "/templates/#{template}"
-  puts result
-  puts "was saved here: #{destination.green}"
-  # TODO generate a file
+
+  File.open(destination, "w") do |f|
+    f.write(result)
+  end
+
+  puts "> was saved here: #{destination.green}\n\n"
 end
 
 def generate_readme
@@ -53,6 +56,8 @@ end
 
 if __FILE__ == $0
   include Container
+
+  Dir.mkdir("generated") unless File.exists?("generated")
 
   generate_readme
   generate_html
