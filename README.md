@@ -1,6 +1,7 @@
 # android-latest
-:watermelon: Latest android versions for development (buildTools, TargetSdk, etc.)
+Latest android versions for developers
 
+<center>
 
 | keys | values     |
 |:-----------:|:--------:|
@@ -14,6 +15,7 @@
 | targetSdkVersion | 24       |
 | com.android.support | 24.2.0       |
 
+</center>
 ## Synopsis
 
 At the top of the file there should be a short introduction and/ or overview that explains **what** the project is. This description should match descriptions added for package managers (Gemspec, package.json, etc.)

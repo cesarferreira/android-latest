@@ -34,12 +34,13 @@ def generate(template, destination)
     f.write(result)
   end
 
-  puts "> was saved here: #{destination.green}\n\n"
+  puts "> was saved here: #{destination.green}"
 end
 
 def generate_readme
   puts "Generating ".green + 'README.md'.yellow
   generate 'readme.erb', 'generated/README.md'
+  generate 'readme.erb', 'README.md'
 end
 
 def generate_build_gradle
