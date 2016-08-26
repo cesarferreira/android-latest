@@ -26,25 +26,27 @@ module Container
   end
 end
 
-def generate(template)
+def generate(template, destination)
   renderer = RendererClass.new
   result = renderer.render File.dirname(__FILE__) + "/templates/#{template}"
   puts result
+  puts "was saved here: #{destination.green}"
+  # TODO generate a file
 end
 
 def generate_readme
   puts "Generating ".green + 'README.md'.yellow
-  generate 'readme.erb'
+  generate 'readme.erb', 'generated/README.md'
 end
 
 def generate_build_gradle
   puts "Generating ".green + 'build.gradle'.yellow
-  generate 'build.gradle.erb'
+  generate 'build.gradle.erb', 'generated/build.gradle'
 end
 
 def generate_html
   puts "Generating ".green + 'index.html'.yellow
-  generate 'html.erb'
+  generate 'html.erb', 'generated/index.html'
 end
 
 ############ GENERATOR ############
