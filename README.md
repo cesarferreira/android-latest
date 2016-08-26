@@ -17,7 +17,7 @@ A short description of the motivation behind the creation and maintenance of the
 ## Installation
 
 Just run
-> `gem install erubis json`
+> `gem install erubis json colorize`
 
 and you are free to execute the generator!
 
