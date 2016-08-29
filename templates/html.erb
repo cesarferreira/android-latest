@@ -1,1 +1,34 @@
-TODO
+<style>
+  html, body {
+    height: 100%;
+  }
+  #tableContainer-1 {
+    height: 100%;
+    width: 100%;
+    display: table;
+  }
+  #tableContainer-2 {
+    vertical-align: middle;
+    display: table-cell;
+    height: 100%;
+  }
+  #myTable {
+    margin: 0 auto;
+  }
+</style>
+<div id="tableContainer-1">
+  <div id="tableContainer-2">
+    <table id="myTable" border>
+      <tr><td>latestAndroidVersionNumber</td><td><%= hash['latestAndroidVersionNumber'] %></td></tr>
+      <tr><td>latestAndroidVersionName</td><td><%= hash['latestAndroidVersionName'] %></td></tr>
+      <tr><td>latestAndroidReleaseDate</td><td><%= hash['latestAndroidReleaseDate'] %></td></tr>
+      <tr><td>latestAndroidVersionCode</td><td><%= hash['latestAndroidVersionCode'] %></td></tr>
+      <tr><td>compileSdkVersion</td><td><%= hash['compileSdkVersion'] %></td></tr>
+      <tr><td>buildToolsVersion</td><td><%= hash['buildToolsVersion'] %></td></tr>
+      <tr><td>minSdkVersion</td><td><%= hash['minSdkVersion'] %></td></tr>
+      <tr><td>targetSdkVersion</td><td><%= hash['targetSdkVersion'] %></td></tr>
+      <tr><td>latestSupportVersion</td><td><%= hash['latestSupportVersion'] %></td></tr>
+      <tr><td>buildGradleToolsVersion</td><td><%= hash['buildGradleToolsVersion'] %></td></tr>
+    </table>
+  </div>
+</div>
