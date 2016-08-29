@@ -16,6 +16,7 @@ The following table was automatically generated based on [data.json](data.json):
 | buildToolsVersion | 24.0.2 |
 | targetSdkVersion | 24 |
 | latestSupportVersion | 24.2.0 |
+| googlePlayServicesVersion | 9.4.0 |
 | latestAndroidVersionNumber | 7.0 |
 | latestAndroidVersionName | Nougat |
 | latestAndroidReleaseDate | 22 August 2016 |
