@@ -1,5 +1,8 @@
 # android-latest
-Latest android versions for developers
+Latest android versions for developers.
+
+------------
+The following table was automatically generated:
 
 <center>
 
@@ -30,7 +33,7 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 - [index.html](generated/index.html)
 - [README.md](generated/README.md)
 
-## `build.gradle` usage
+## Using the `build.gradle`
 
 Apply this in your main `build.gradle`
 ```groovy
