@@ -4,22 +4,21 @@ Latest android versions for developers. Can be found online [here](http://htmlpr
 
 
 ------------
-The following table was automatically generated:
+The following table was automatically generated based on [data.json](data.json):
 
 <center>
 
 | keys | values     |
 |:-----------:|:--------:|
-| latestAndroidVersionNumber | 7.0 |
-| latestAndroidVersionName | Nougat |
-| latestAndroidReleaseDate | 22 August 2016 |
+| buildGradleToolsVersion | 2.1.0 |
 | latestAndroidVersionCode | 24 |
 | compileSdkVersion | 24 |
 | buildToolsVersion | 24.0.2 |
-| minSdkVersion | 17 |
 | targetSdkVersion | 24 |
 | latestSupportVersion | 24.2.0 |
-| buildGradleToolsVersion | 2.2.0-beta3 |
+| latestAndroidVersionNumber | 7.0 |
+| latestAndroidVersionName | Nougat |
+| latestAndroidReleaseDate | 22 August 2016 |
 
 </center>
 

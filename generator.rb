@@ -35,8 +35,8 @@ end
 
 def generate_readme
   puts "Generating ".green + 'README.md'.yellow
-  generate 'readme.erb', 'generated/README.md'
-  # generate 'readme.erb', 'README.md'
+  # generate 'readme.erb', 'generated/README.md'
+  generate 'readme.erb', 'README.md'
 end
 
 def generate_build_gradle
