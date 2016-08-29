@@ -14,7 +14,7 @@ Latest android versions for developers
 | minSdkVersion | 17 |
 | targetSdkVersion | 24 |
 | latestSupportVersion | 24.2.0 |
-| buildGradleToolsVersion | 2.2.0-beta2 |
+| buildGradleToolsVersion | 2.2.0-beta3 |
 
 </center>
 
@@ -27,8 +27,8 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 
 - [data.json](data.json)
 - [build.gradle](generated/build.gradle)
-- [README.md](generated/README.md)
 - [index.html](generated/index.html)
+- [README.md](generated/README.md)
 
 ## `build.gradle` usage
 
