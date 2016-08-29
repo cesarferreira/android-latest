@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <title>Android latest</title>
@@ -144,8 +145,8 @@
     }
 
     a {
-        color: #FFFFFF;
-        text-decoration: none;
+      color: #FFFFFF;
+      text-decoration: none;
     }
 
     td.text-right {
@@ -168,23 +169,10 @@
       </tr>
     </thead>
     <tbody class="table-hover">
-
       <tr>
-        <td class="text-left">latestAndroidVersionNumber</td>
+        <td class="text-left">buildGradleToolsVersion</td>
         <td class="text-left">
-          <%= hash['latestAndroidVersionNumber'] %>
-        </td>
-      </tr>
-      <tr>
-        <td class="text-left">latestAndroidVersionName</td>
-        <td class="text-left">
-          <%= hash['latestAndroidVersionName'] %>
-        </td>
-      </tr>
-      <tr>
-        <td class="text-left">latestAndroidReleaseDate</td>
-        <td class="text-left">
-          <%= hash['latestAndroidReleaseDate'] %>
+          <%= hash['buildGradleToolsVersion'] %>
         </td>
       </tr>
       <tr>
@@ -224,14 +212,29 @@
         </td>
       </tr>
       <tr>
-        <td class="text-left">buildGradleToolsVersion</td>
+        <td class="text-left">latestAndroidVersionNumber</td>
         <td class="text-left">
-          <%= hash['buildGradleToolsVersion'] %>
+          <%= hash['latestAndroidVersionNumber'] %>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-left">latestAndroidVersionName</td>
+        <td class="text-left">
+          <%= hash['latestAndroidVersionName'] %>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-left">latestAndroidReleaseDate</td>
+        <td class="text-left">
+          <%= hash['latestAndroidReleaseDate'] %>
         </td>
       </tr>
 
     </tbody>
   </table>
-</br></br></br>
+  </br>
+  </br>
+  </br>
 </body>
+
 </html>
