@@ -30,7 +30,7 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 
 - [data.json](data.json)
 - [build.gradle](generated/build.gradle)
-- [index.html](generated/index.html)
+- [index.html](http://htmlpreview.github.io/?https://github.com/cesarferreira/android-latest/blob/master/generated/index.html)
 - [README.md](generated/README.md)
 
 ## Using the `build.gradle`
