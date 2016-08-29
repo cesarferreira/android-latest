@@ -10,11 +10,10 @@ The following table was automatically generated based on [data.json](data.json):
 
 | keys | values     |
 |:-----------:|:--------:|
-| buildGradleToolsVersion | 2.2.0-beta3 |
+| buildGradleToolsVersion | 2.1.0 |
 | latestAndroidVersionCode | 24 |
 | compileSdkVersion | 24 |
 | buildToolsVersion | 24.0.2 |
-| minSdkVersion | 17 |
 | targetSdkVersion | 24 |
 | latestSupportVersion | 24.2.0 |
 | latestAndroidVersionNumber | 7.0 |
