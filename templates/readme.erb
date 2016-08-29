@@ -22,6 +22,13 @@ Latest android versions for developers
 I'm always wondering what the latest versions of buildTools/support/etc. are, so here is a repository with the updated information for consultation.
 Anyone can open a pull request if any version comes out and I fail to notice.
 
+## Available outputs
+
+- [data.json](data.json)
+- [build.gradle](generated/build.gradle)
+- [README.md](generated/README.md)
+- [index.html](generated/index.html)
+
 ## Installation
 
 Just run
