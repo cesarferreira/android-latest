@@ -8,6 +8,6 @@ allprojects {
     buildToolsVersion = "24.0.2"
     targetSdkVersion = 24
     latestSupportVersion = "24.2.0"
-    buildGradleToolsVersion = "2.1.0"
+    buildGradleToolsVersion = "2.1.3"
   }
 }
