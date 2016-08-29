@@ -1,1 +1,11 @@
-wat
+ext {
+  latestAndroidVersionNumber "<%= hash['latestAndroidVersionNumber'] %>"
+  latestAndroidVersionName "<%= hash['latestAndroidVersionName'] %>"
+  latestAndroidReleaseDate "<%= hash['latestAndroidReleaseDate'] %>"
+  latestAndroidVersionCode <%= hash['latestAndroidVersionCode'] %>
+  compileSdkVersion <%= hash['compileSdkVersion'] %>
+  buildToolsVersion "<%= hash['buildToolsVersion'] %>"
+  minSdkVersion <%= hash['minSdkVersion'] %>
+  targetSdkVersion <%= hash['targetSdkVersion'] %>
+  latestSupportVersion "<%= hash['com.android.support'] %>"
+}
