@@ -30,6 +30,18 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 - [README.md](generated/README.md)
 - [index.html](generated/index.html)
 
+## `build.gradle` usage
+
+Apply this in your main `build.gradle`
+```groovy
+apply from: 'https://raw.githubusercontent.com/cesarferreira/android-latest/master/generated/build.gradle'
+```
+
+Use the variables at will
+```groovy
+buildToolsVersion rootProject.ext.buildToolsVersion
+```
+
 ## Installation
 
 Just run
