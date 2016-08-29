@@ -1,7 +1,7 @@
-![Image](extras/web-screenshot.png)
+![Image](https://github.com/cesarferreira/android-latest/raw/master/extras/web-screenshot.png)
 
-# android-latest
-Latest android versions for developers.
+Latest android versions for developers. Can be found online [here](http://htmlpreview.github.io/?https://github.com/cesarferreira/android-latest/blob/master/generated/index.html)
+
 
 ------------
 The following table was automatically generated:
