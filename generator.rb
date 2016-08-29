@@ -9,20 +9,16 @@ module Container
 
   class Data
     def self.hash
-      file = File.read('data.json')
-      JSON.parse(file)
+      JSON.parse(File.read('data.json'))
     end
   end
 
   class RendererClass
-
     def render(input_template)
       input_template = File.read(input_template)
       template = Erubis::Eruby.new(input_template)
-      result = template.result hash: Data.hash
-      result
+      template.result hash: Data.hash
     end
-
   end
 end
 
@@ -40,7 +36,7 @@ end
 def generate_readme
   puts "Generating ".green + 'README.md'.yellow
   generate 'readme.erb', 'generated/README.md'
-  generate 'readme.erb', 'README.md'
+  # generate 'readme.erb', 'README.md'
 end
 
 def generate_build_gradle
