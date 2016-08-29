@@ -13,7 +13,7 @@ Latest android versions for developers
 | buildToolsVersion | 24.0.2 |
 | minSdkVersion | 17 |
 | targetSdkVersion | 24 |
-| latestSupportVersion |  |
+| latestSupportVersion | 24.2.0 |
 
 </center>
 
