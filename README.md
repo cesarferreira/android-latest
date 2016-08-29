@@ -14,6 +14,7 @@ Latest android versions for developers
 | minSdkVersion | 17 |
 | targetSdkVersion | 24 |
 | latestSupportVersion | 24.2.0 |
+| buildGradleToolsVersion | 2.2.0-beta2 |
 
 </center>
 
