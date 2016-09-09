@@ -1,6 +1,6 @@
 ![Image](https://github.com/cesarferreira/android-latest/raw/master/extras/web-screenshot.png)
 
-Latest android versions for developers. Can be found online [here](http://htmlpreview.github.io/?https://github.com/cesarferreira/android-latest/blob/master/generated/index.html)
+Latest android versions for developers. Can be found online here [cesarferreira.com/android-latest/](http://cesarferreira.com/android-latest/)
 
 
 ------------
@@ -33,7 +33,7 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 
 - [data.json](data.json)
 - [build.gradle](generated/build.gradle)
-- [index.html](http://htmlpreview.github.io/?https://github.com/cesarferreira/android-latest/blob/master/generated/index.html)
+- [index.html](http://cesarferreira.com/android-latest/)
 - [README.md](generated/README.md)
 
 ## Using the `build.gradle`
