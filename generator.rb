@@ -35,7 +35,7 @@ end
 
 def generate_readme
   puts "Generating ".green + 'README.md'.yellow
-  # generate 'readme.erb', 'generated/README.md'
+  generate 'readme.erb', 'generated/README.md'
   generate 'readme.erb', 'README.md'
 end
 
@@ -47,6 +47,7 @@ end
 def generate_html
   puts "Generating ".green + 'index.html'.yellow
   generate 'html.erb', 'generated/index.html'
+  generate 'html.erb', 'index.html'
 end
 
 ############ GENERATOR ############
