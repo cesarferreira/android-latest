@@ -11,6 +11,7 @@ The following table was automatically generated based on [data.json](data.json):
 | keys | values     |
 |:-----------:|:--------:|
 | buildGradleToolsVersion | 2.1.3 |
+| gradlePropertiesVersion | 2.14.1 |
 | latestAndroidVersionCode | 24 |
 | compileSdkVersion | 24 |
 | buildToolsVersion | 24.0.2 |
