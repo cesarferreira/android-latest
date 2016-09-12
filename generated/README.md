@@ -10,7 +10,7 @@ The following table was automatically generated based on [data.json](data.json):
 
 | keys | values     |
 |:-----------:|:--------:|
-| buildGradleToolsVersion | 2.1.3 |
+| androidGradlePluginVersion | 2.1.3 |
 | gradleVersion | 2.14.1 |
 | latestAndroidVersionCode | 24 |
 | compileSdkVersion | 24 |
