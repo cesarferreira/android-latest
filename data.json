@@ -7,7 +7,7 @@
 	"buildToolsVersion": "24.0.2",
 	"targetSdkVersion": 24,
 	"latestSupportVersion": "24.2.0",
-	"androidGradlePluginVersion": "2.1.3",
+	"androidGradlePluginVersion": "2.2.0",
 	"gradleVersion" : "2.14.1",
 	"googlePlayServicesVersion": "9.4.0"
 }
