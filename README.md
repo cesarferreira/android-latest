@@ -16,7 +16,7 @@ The following table was automatically generated based on [data.json](data.json):
 | compileSdkVersion | 24 |
 | buildToolsVersion | 24.0.2 |
 | targetSdkVersion | 24 |
-| latestSupportVersion | 24.2.0 |
+| latestSupportVersion | 24.2.1 |
 | googlePlayServicesVersion | 9.6.0 |
 | latestAndroidVersionNumber | 7.0 |
 | latestAndroidVersionName | Nougat |
