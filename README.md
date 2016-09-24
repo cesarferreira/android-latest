@@ -8,19 +8,19 @@ The following table was automatically generated based on [data.json](data.json):
 
 <center>
 
-| keys | values     |
-|:-----------:|:--------:|
-| androidGradlePluginVersion | 2.2.0 |
-| gradleVersion | 3.1 |
-| latestAndroidVersionCode | 24 |
-| compileSdkVersion | 24 |
-| buildToolsVersion | 24.0.2 |
-| targetSdkVersion | 24 |
-| latestSupportVersion | 24.2.1 |
-| googlePlayServicesVersion | 9.6.0 |
-| latestAndroidVersionNumber | 7.0 |
-| latestAndroidVersionName | Nougat |
-| latestAndroidReleaseDate | 22 August 2016 |
+| Key | Value     | Sample      |
+|:-----------:|:--------:|:--------:|
+| androidGradlePluginVersion | 2.2.0 | classpath 'com.android.tools.build:gradle:<strong>2.2.0'</strong> |
+| gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-<strong>3.1</strong> |
+| latestAndroidVersionCode | 24 | N/R |
+| compileSdkVersion | 24 | compileSdkVersion <strong>24</strong> |
+| buildToolsVersion | 24.0.2 | buildToolsVersion "<strong>24.0.2</strong>" |
+| targetSdkVersion | 24 | targetSdkVersion <strong>24</strong> |
+| latestSupportVersion | 24.2.1 | compile 'com.android.support:support-v7:<strong>24.2.1</strong>' |
+| googlePlayServicesVersion | 9.6.0 | compile 'com.google.android.gms:play-services:<strong>9.6.0</strong>' |
+| latestAndroidVersionNumber | 7.0 | N/R |
+| latestAndroidVersionName | Nougat | N/R |
+| latestAndroidReleaseDate | 22 August 2016 | N/R |
 
 </center>
 
