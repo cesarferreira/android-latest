@@ -178,56 +178,56 @@
         <td class="text-left">
           <%= hash['androidGradlePluginVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">classpath 'com.android.tools.build:gradle:<%= hash['androidGradlePluginVersion'] %>'</td>
       </tr>
       <tr>
         <td class="text-left">gradleVersion</td>
         <td class="text-left">
           <%= hash['gradleVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">https://services.gradle.org/distributions/gradle-<%= hash['gradleVersion'] %>-all.zip</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidVersionCode</td>
         <td class="text-left">
           <%= hash['latestAndroidVersionCode'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">N/R</td>
       </tr>
       <tr>
         <td class="text-left">compileSdkVersion</td>
         <td class="text-left">
           <%= hash['compileSdkVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">compileSdkVersion <%= hash['compileSdkVersion'] %></td>
       </tr>
       <tr>
         <td class="text-left">buildToolsVersion</td>
         <td class="text-left">
           <%= hash['buildToolsVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">buildToolsVersion "<%= hash['buildToolsVersion'] %>"</td>
       </tr>
       <tr>
         <td class="text-left">targetSdkVersion</td>
         <td class="text-left">
           <%= hash['targetSdkVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">targetSdkVersion <%= hash['targetSdkVersion'] %></td>
       </tr>
       <tr>
         <td class="text-left">latestSupportVersion</td>
         <td class="text-left">
           <%= hash['latestSupportVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">compile 'com.android.support:support-v7:<%= hash['latestSupportVersion'] %>'</td>
       </tr>
       <tr>
         <td class="text-left">googlePlayServicesVersion</td>
         <td class="text-left">
           <%= hash['googlePlayServicesVersion'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">compile 'com.google.android.gms:play-services:<%= hash['googlePlayServicesVersion'] %>'</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidVersionNumber</td>
@@ -241,14 +241,14 @@
         <td class="text-left">
           <%= hash['latestAndroidVersionName'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">N/R</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidReleaseDate</td>
         <td class="text-left">
           <%= hash['latestAndroidReleaseDate'] %>
         </td>
-        <td class="text-left">classpath 'com.android.tools.build:gradle:2.2.0'</td>
+        <td class="text-left">N/R</td>
       </tr>
     </tbody>
   </table>
