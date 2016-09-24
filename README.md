@@ -1,6 +1,6 @@
 ![Image](https://github.com/cesarferreira/android-latest/raw/master/extras/web-screenshot.png)
 
-Latest android versions for developers. Can be found online here [cesarferreira.com/android-latest/](http://cesarferreira.com/android-latest/)
+Latest android versions for developers. Can be found online here [cesarferreira.com/android-latest](http://cesarferreira.com/android-latest/)
 
 
 ------------
