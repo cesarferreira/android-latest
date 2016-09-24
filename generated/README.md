@@ -8,7 +8,7 @@ The following table was automatically generated based on [data.json](data.json):
 
 <center>
 
-| Key | Value     | Sample      |
+| Key | Value     | Usage      |
 |:-----------:|:--------:|:--------:|
 | androidGradlePluginVersion | 2.2.0 | classpath 'com.android.tools.build:gradle:<strong>2.2.0</strong>' |
 | gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-3.1-all.zip |
