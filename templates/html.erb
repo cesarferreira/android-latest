@@ -15,11 +15,8 @@
     }
 
     div.table-title {
-      display: block;
-      margin: auto;
-      max-width: 600px;
-      padding: 5px;
-      width: 100%;
+      text-align: center;
+      padding: 20px;
     }
 
     .table-title h3 {
@@ -48,7 +45,6 @@
 
     th {
       color: #D5DDE5;
-      ;
       background: #1b1e24;
       border-bottom: 4px solid #9ea7af;
       border-right: 1px solid #343a45;
@@ -118,6 +114,7 @@
       font-size: 18px;
       text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
       border-right: 1px solid #C1C3D1;
+      white-space: nowrap;
     }
 
     td:last-child {
@@ -168,6 +165,7 @@
       <tr>
         <th class="text-left">Key</th>
         <th class="text-left">Value</th>
+        <th class="text-left">Usage</th>
       </tr>
     </thead>
     <tbody class="table-hover">
@@ -176,68 +174,78 @@
         <td class="text-left">
           <%= hash['androidGradlePluginVersion'] %>
         </td>
+        <td class="text-left">classpath 'com.android.tools.build:gradle:<strong><%= hash['androidGradlePluginVersion'] %>'</strong></td>
       </tr>
       <tr>
         <td class="text-left">gradleVersion</td>
         <td class="text-left">
           <%= hash['gradleVersion'] %>
         </td>
-      </tr>
-      <tr>
-        <td class="text-left">latestAndroidVersionCode</td>
-        <td class="text-left">
-          <%= hash['latestAndroidVersionCode'] %>
-        </td>
+        <td class="text-left">https://services.gradle.org/distributions/gradle-<strong><%= hash['gradleVersion'] %></strong>-all.zip</td>
       </tr>
       <tr>
         <td class="text-left">compileSdkVersion</td>
         <td class="text-left">
           <%= hash['compileSdkVersion'] %>
         </td>
+        <td class="text-left">compileSdkVersion <strong><%= hash['compileSdkVersion'] %></strong></td>
       </tr>
       <tr>
         <td class="text-left">buildToolsVersion</td>
         <td class="text-left">
           <%= hash['buildToolsVersion'] %>
         </td>
+        <td class="text-left">buildToolsVersion '<strong><%= hash['buildToolsVersion'] %></strong>'</td>
       </tr>
       <tr>
         <td class="text-left">targetSdkVersion</td>
         <td class="text-left">
           <%= hash['targetSdkVersion'] %>
         </td>
+        <td class="text-left">targetSdkVersion <strong><%= hash['targetSdkVersion'] %></strong></td>
       </tr>
       <tr>
         <td class="text-left">latestSupportVersion</td>
         <td class="text-left">
           <%= hash['latestSupportVersion'] %>
         </td>
+        <td class="text-left">compile 'com.android.support:support-v7:<strong><%= hash['latestSupportVersion'] %></strong>'</td>
       </tr>
       <tr>
         <td class="text-left">googlePlayServicesVersion</td>
         <td class="text-left">
           <%= hash['googlePlayServicesVersion'] %>
         </td>
+        <td class="text-left">compile 'com.google.android.gms:play-services:<strong><%= hash['googlePlayServicesVersion'] %></strong>'</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidVersionNumber</td>
         <td class="text-left">
           <%= hash['latestAndroidVersionNumber'] %>
         </td>
+        <td class="text-left">N/R</td>
+      </tr>
+      <tr>
+        <td class="text-left">latestAndroidVersionCode</td>
+        <td class="text-left">
+          <%= hash['latestAndroidVersionCode'] %>
+        </td>
+        <td class="text-left">N/R</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidVersionName</td>
         <td class="text-left">
           <%= hash['latestAndroidVersionName'] %>
         </td>
+        <td class="text-left">N/R</td>
       </tr>
       <tr>
         <td class="text-left">latestAndroidReleaseDate</td>
         <td class="text-left">
           <%= hash['latestAndroidReleaseDate'] %>
         </td>
+        <td class="text-left">N/R</td>
       </tr>
-
     </tbody>
   </table>
   </br>
