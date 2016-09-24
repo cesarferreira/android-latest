@@ -11,7 +11,7 @@ The following table was automatically generated based on [data.json](data.json):
 | Key | Value     | Sample      |
 |:-----------:|:--------:|:--------:|
 | androidGradlePluginVersion | 2.2.0 | classpath 'com.android.tools.build:gradle:<strong>2.2.0'</strong> |
-| gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-<strong>3.1</strong> |
+| gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-<strong>3.1</strong>-all.zip |
 | latestAndroidVersionCode | 24 | N/R |
 | compileSdkVersion | 24 | compileSdkVersion <strong>24</strong> |
 | buildToolsVersion | 24.0.2 | buildToolsVersion "<strong>24.0.2</strong>" |
