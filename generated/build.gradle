@@ -10,6 +10,6 @@ allprojects {
     googlePlayServicesVersion = "9.6.0"
     targetSdkVersion = 24
     latestSupportVersion = "24.2.1"
-    androidGradlePluginVersion = "2.2.0"
+    androidGradlePluginVersion = "2.2.1"
   }
 }
