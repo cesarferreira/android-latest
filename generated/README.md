@@ -13,7 +13,7 @@ The following table was automatically generated based on [data.json](data.json):
 | androidGradlePluginVersion | 2.2.1 | classpath 'com.android.tools.build:gradle:<strong>2.2.1</strong>' |
 | gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-3.1-all.zip |
 | compileSdkVersion | 24 | compileSdkVersion <strong>24</strong> |
-| buildToolsVersion | 24.0.2 | buildToolsVersion '<strong>24.0.2</strong>' |
+| buildToolsVersion | 24.0.3 | buildToolsVersion '<strong>24.0.3</strong>' |
 | targetSdkVersion | 24 | targetSdkVersion <strong>24</strong> |
 | latestSupportVersion | 24.2.1 | compile 'com.android.support:support-v7:<strong>24.2.1</strong>' |
 | googlePlayServicesVersion | 9.6.0 | compile 'com.google.android.gms:play-services:<strong>9.6.0</strong>' |

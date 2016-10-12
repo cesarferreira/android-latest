@@ -5,7 +5,7 @@ allprojects {
     latestAndroidReleaseDate = "22 August 2016"
     latestAndroidVersionCode = 24
     compileSdkVersion = 24
-    buildToolsVersion = "24.0.2"
+    buildToolsVersion = "24.0.3"
     gradleVersion = "3.1"
     googlePlayServicesVersion = "9.6.0"
     targetSdkVersion = 24
