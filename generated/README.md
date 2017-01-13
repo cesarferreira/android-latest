@@ -10,15 +10,15 @@ The following table was automatically generated based on [data.json](data.json):
 
 | Key | Value     | Usage      |
 |:-----------:|:--------:|:--------:|
-| androidGradlePluginVersion | 2.2.1 | classpath 'com.android.tools.build:gradle:<strong>2.2.1</strong>' |
-| gradleVersion | 3.1 | https://services.gradle.org/distributions/gradle-3.1-all.zip |
-| compileSdkVersion | 24 | compileSdkVersion <strong>24</strong> |
+| androidGradlePluginVersion | 2.2.3 | classpath 'com.android.tools.build:gradle:<strong>2.2.3</strong>' |
+| gradleVersion | 3.3 | https://services.gradle.org/distributions/gradle-3.3-all.zip |
+| compileSdkVersion | 25 | compileSdkVersion <strong>25</strong> |
 | buildToolsVersion | 24.0.3 | buildToolsVersion '<strong>24.0.3</strong>' |
-| targetSdkVersion | 24 | targetSdkVersion <strong>24</strong> |
-| latestSupportVersion | 24.2.1 | compile 'com.android.support:support-v7:<strong>24.2.1</strong>' |
-| googlePlayServicesVersion | 9.6.0 | compile 'com.google.android.gms:play-services:<strong>9.6.0</strong>' |
-| latestAndroidVersionNumber | 7.0 | N/R |
-| latestAndroidVersionCode | 24 | N/R |
+| targetSdkVersion | 25 | targetSdkVersion <strong>25</strong> |
+| latestSupportVersion | 25.1.0 | compile 'com.android.support:support-v7:<strong>25.1.0</strong>' |
+| googlePlayServicesVersion | 10.0.1 | compile 'com.google.android.gms:play-services:<strong>10.0.1</strong>' |
+| latestAndroidVersionNumber | 7.1.1 | N/R |
+| latestAndroidVersionCode | 25 | N/R |
 | latestAndroidVersionName | Nougat | N/R |
 | latestAndroidReleaseDate | 22 August 2016 | N/R |
 

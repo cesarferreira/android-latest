@@ -1,15 +1,15 @@
 allprojects {
   ext {
-    latestAndroidVersionNumber = "7.0"
+    latestAndroidVersionNumber = "7.1.1"
     latestAndroidVersionName = "Nougat"
     latestAndroidReleaseDate = "22 August 2016"
-    latestAndroidVersionCode = 24
-    compileSdkVersion = 24
+    latestAndroidVersionCode = 25
+    compileSdkVersion = 25
     buildToolsVersion = "24.0.3"
-    gradleVersion = "3.1"
-    googlePlayServicesVersion = "9.6.0"
-    targetSdkVersion = 24
-    latestSupportVersion = "24.2.1"
-    androidGradlePluginVersion = "2.2.1"
+    gradleVersion = "3.3"
+    googlePlayServicesVersion = "10.0.1"
+    targetSdkVersion = 25
+    latestSupportVersion = "25.1.0"
+    androidGradlePluginVersion = "2.2.3"
   }
 }
