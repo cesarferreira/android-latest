@@ -48,14 +48,6 @@ Use the variables at will
 buildToolsVersion rootProject.ext.buildToolsVersion
 ```
 
-## Installation
-
-Just run
-> `gem install erubis json colorize`
-
-and you are free to execute the generator!
-
-
 ## Contributing
 
 1. Fork the project
