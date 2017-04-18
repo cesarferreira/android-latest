@@ -1,13 +1,13 @@
 {
-	"latestAndroidVersionNumber": "7.1.1",
+	"latestAndroidVersionNumber": "7.1.2",
 	"latestAndroidVersionName": "Nougat",
 	"latestAndroidReleaseDate": "22 August 2016",
 	"latestAndroidVersionCode": 25,
 	"compileSdkVersion": 25,
-	"buildToolsVersion": "24.0.3",
+	"buildToolsVersion": "25.0.2",
 	"targetSdkVersion": 25,
-	"latestSupportVersion": "25.1.0",
-	"androidGradlePluginVersion": "2.2.3",
-	"gradleVersion" : "3.3",
-	"googlePlayServicesVersion": "10.0.1"
+	"latestSupportVersion": "25.3.1",
+	"androidGradlePluginVersion": "2.3.1",
+	"gradleVersion" : "3.5",
+	"googlePlayServicesVersion": "10.2.1"
 }
