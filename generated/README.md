@@ -10,17 +10,17 @@ The following table was automatically generated based on [data.json](data.json):
 
 | Key | Value     | Usage      |
 |:-----------:|:--------:|:--------:|
-| androidGradlePluginVersion | 2.3.1 | classpath 'com.android.tools.build:gradle:<strong>2.3.1</strong>' |
-| gradleVersion | 3.5 | https://services.gradle.org/distributions/gradle-3.5-all.zip |
-| compileSdkVersion | 25 | compileSdkVersion <strong>25</strong> |
-| buildToolsVersion | 25.0.2 | buildToolsVersion '<strong>25.0.2</strong>' |
-| targetSdkVersion | 25 | targetSdkVersion <strong>25</strong> |
-| latestSupportVersion | 25.3.1 | compile 'com.android.support:support-v7:<strong>25.3.1</strong>' |
-| googlePlayServicesVersion | 10.2.1 | compile 'com.google.android.gms:play-services:<strong>10.2.1</strong>' |
-| latestAndroidVersionNumber | 7.1.2 | N/R |
-| latestAndroidVersionCode | 25 | N/R |
-| latestAndroidVersionName | Nougat | N/R |
-| latestAndroidReleaseDate | 22 August 2016 | N/R |
+| androidGradlePluginVersion | 3.0.1 | classpath 'com.android.tools.build:gradle:<strong>3.0.1</strong>' |
+| gradleVersion | 4.5.1 | https://services.gradle.org/distributions/gradle-4.5.1-all.zip |
+| compileSdkVersion | 27 | compileSdkVersion <strong>27</strong> |
+| buildToolsVersion | 27.0.3 | buildToolsVersion '<strong>27.0.3</strong>' |
+| targetSdkVersion | 27 | targetSdkVersion <strong>27</strong> |
+| latestSupportVersion | 27.0.2 | compile 'com.android.support:support-v7:<strong>27.0.2</strong>' |
+| googlePlayServicesVersion | 11.8.0 | compile 'com.google.android.gms:play-services:<strong>11.8.0</strong>' |
+| latestAndroidVersionNumber | 8.1 | N/R |
+| latestAndroidVersionCode | 27 | N/R |
+| latestAndroidVersionName | Oreo | N/R |
+| latestAndroidReleaseDate | 05 December 2017 | N/R |
 
 </center>
 
@@ -35,6 +35,7 @@ Anyone can open a pull request if any version comes out and I fail to notice.
 - [build.gradle](generated/build.gradle)
 - [index.html](http://cesarferreira.com/android-latest/)
 - [README.md](generated/README.md)
+
 
 ## Using the `build.gradle`
 
